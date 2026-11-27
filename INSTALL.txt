@@ -1,0 +1,6 @@
+RO’Lyfe EMG visual upgrade
+1. Extract this ZIP. Upload the assets folder (both files) to the root of the existing rolyfe-emg repository on main, or its active development branch.
+2. Edit the existing index.html. Immediately before </body> (or </html> if there is no explicit body closing tag), insert:
+<script src="assets/emg-visuals.js" defer></script>
+3. Commit changes, then allow GitHub Pages to rebuild. Refresh the website.
+The original family artwork is included. The eight backgrounds are CSS gradients, not eight cinematic image files. Existing website functionality is preserved by this add-on; it has not been browser tested. Radio, sports and Atlas integrations are not included in this visual patch.
